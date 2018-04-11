@@ -56,6 +56,7 @@ int partition(int arr[], int left, int right) {
 	int lo = left + 1;
 	int hi = right;
 
+	// enquanto os indices não se cruzam...
 	while (lo<=hi) {
 		while(arr[hi] > pivot)
 			hi--;
